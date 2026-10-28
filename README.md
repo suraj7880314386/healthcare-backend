@@ -90,19 +90,10 @@ Register
 
 ```json
 POST /api/auth/register/
-{ "name": "Suraj Singh", "email": "suraj@example.com", "password": "Strong@12345" }
-```
-```json
-POST /api/auth/register/
 { "name": "Suraj Singh", "email": "surajsingh7880@gmail.com", "password": "Suraj@7880" }
 ```
 
 Login
-
-```json
-POST /api/auth/login/
-{ "email": "suraj@example.com", "password": "Strong@12345" }
-```
 
 ```json
 POST /api/auth/login/
@@ -118,10 +109,6 @@ POST /api/patients/
 
 Add a doctor
 
-```json
-POST /api/doctors/
-{ "name": "Mehta", "specialization": "Cardiology", "email": "mehta@example.com", "phone": "9123456780", "experience": 10 }
-```
 ```json
 POST /api/doctors/
 { "name": "Mehta", "specialization": "Cardiology", "email": "mehtasingh1234@gmail.com", "phone": "9123456780", "experience": 10 }
